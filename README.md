@@ -124,9 +124,9 @@ be=BinaryEncoder()
 newdata=be.fit_transform(df['drivewheel'])
 df1=pd.concat([df,newdata],axis=1)
 df1
-~~~
+
 # RESULT:
 
 Thus the Feature Generation process was performed and output was verified successfully.
-~~~
+
  
